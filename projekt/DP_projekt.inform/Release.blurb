@@ -1,0 +1,59 @@
+! Blurb file created by Inform build 6M62
+
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Laura\Desktop\fucks\4.god\DP\projekt\DP_projekt.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\Laura\Desktop\fucks\4.god\DP\projekt\DP_projekt.inform"
+release to "C:\Users\Laura\Desktop\fucks\4.god\DP\projekt\DP_projekt.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "A Nutter Mystery.gblorb"
+storyfile "C:\Users\Laura\Desktop\fucks\4.god\DP\projekt\DP_projekt.inform\Build\output.ulx" include
+ifiction "C:\Users\Laura\Desktop\fucks\4.god\DP\projekt\DP_projekt.inform\Metadata.iFiction" include
+cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+release file "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+release file "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Small Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "517FB988-2900-4843-B81C-AF4937DE6FFF"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2025"
+placeholder [TITLE] = "A Nutter Mystery"
+placeholder [AUTHOR] = "Laura Kriskovic"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+auxiliary "C:\Program Files (x86)\Inform 7\Internal\Miscellany\IntroductionToIF.pdf" "Introduction to IF" "--"
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "A Nutter Mystery.gblorb.js"
+template path "C:\Users\Laura\Desktop\fucks\4.god\DP\projekt\DP_projekt.materials\Templates"
+template path "C:\Users\Laura\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "C:\Users\Laura\Desktop\fucks\4.god\DP\projekt\DP_projekt.inform\Build\output.ulx" to "C:\Users\Laura\Desktop\fucks\4.god\DP\projekt\DP_projekt.materials\Release\interpreter\A Nutter Mystery.gblorb.js"
+
+! Website instructions
+
+template path "C:\Users\Laura\Desktop\fucks\4.god\DP\projekt\DP_projekt.materials\Templates"
+template path "C:\Users\Laura\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line4"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line5"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line6"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

@@ -1,0 +1,2260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-260"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">DP_projekt</command>
+    <result xml:space="preserve">The living room of the Victorian mansion buzzed with chatter, the clinking of glasses, and the enchanting voice of a singer filling the air. After all, a New Year's Eve party like this was a rare occasion.&#x000A;&#x000A;When the clock struck midnight, fireworks illuminated the sky outside, and the guests erupted into cheers of "Happy New Year!" The sound of toasts and laughter echoed throughout the room.&#x000A;&#x000A;Moments later, the lights flickered back on, and an eerie silence replaced the joyful music. Gasps and murmurs spread as all eyes fell on the lifeless body of Simon the chipmunk sprawled on the carpet, blood pooling around him.&#x000A;&#x000A;Duck-tective burst dramatically into the room, his detective hat slightly askew. You followed close behind.&#x000A;&#x000A;"It appears," he quacked with flair, "we have a MURDER on our hands!"&#x000A;&#x000A;He pointed a feathery wing at the scene. "Apprentice! This is your moment. Search the mansion, gather evidence, interrogate the suspects, and do whatever it takes to crack this case. This is your final test to earn your badge as a true detective!"&#x000A;&#x000A;With a sly grin, Duck-tective added, "Of course, I already know who the culprit is. If you find yourself lost, you may consult me... but only if you wish me to question your capabilities. Now go forth and question the suspects-quack, quack!"&#x000A;&#x000A;**INFORMATION FOR THE PLAYER**&#x000A;&#x000A;You can guess the murderer when you find all the clues. If you know to which character the clue is tied to, you can ask that character about it. For neutral clues like keys and chests, ask Duck-tective for help.&#x000A;&#x000A;Try looking inside or behind the items you see in every room.&#x000A;&#x000A;If you want to try guessing the killer before finding all the clues type "guess (suspect)" - this will, however, end the game</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-10"/>
+      <child nodeId="node-16"/>
+      <child nodeId="node-18"/>
+      <child nodeId="node-19"/>
+      <child nodeId="node-22"/>
+      <child nodeId="node-112"/>
+      <child nodeId="node-114"/>
+      <child nodeId="node-118"/>
+      <child nodeId="node-124"/>
+      <child nodeId="node-160"/>
+      <child nodeId="node-161"/>
+      <child nodeId="node-187"/>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">examine map</command>
+    <result xml:space="preserve">N&#x000A;                                                 &#x000A;                                Simon's room        Library&#x000A;                                            |                        |&#x000A;                                            |                        |&#x000A;                                     Small Hall ------ Living Room ---- Terrace&#x000A; W                                        |                                                                        E &#x000A;                                            |                         &#x000A;                  Garden ----Grand Hall --- Dining Room ------ Kitchen&#x000A;                                            |                       |&#x000A;                                            |                       |&#x000A;                               Main Entrance     Staff Room&#x000A;                                          &#x000A;                                                         S&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;You can see Duck-tective and a mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">examine mushroom</command>
+    <result xml:space="preserve">A red and white mushroom, as big as a dog's head, yet as light as a feather. What purpose could it possibly serve?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">eat mushroom</command>
+    <result xml:space="preserve">You munch down the mushroom. A burst of energy fills you up. Strange...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;You can see Duck-tective and a mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">look at map</command>
+    <result xml:space="preserve">N&#x000A;                                                 &#x000A;                                Simon's room        Library&#x000A;                                            |                        |&#x000A;                                            |                        |&#x000A;                                     Small Hall ------ Living Room ---- Terrace&#x000A; W                                        |                                                                        E &#x000A;                                            |                         &#x000A;                  Garden ----Grand Hall --- Dining Room ------ Kitchen&#x000A;                                            |                       |&#x000A;                                            |                       |&#x000A;                               Main Entrance     Staff Room&#x000A;                                          &#x000A;                                                         S&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+      <child nodeId="node-12"/>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">take map</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;You can see Duck-tective here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">terrace&#x000A;The terrace offers a breathtaking view of the garden below, though the cold night air seems to carry a sense of unease. Elegant wrought-iron furniture is neatly arranged, yet a single chair is overturned, hinting at a moment of panic or a hurried escape.&#x000A;&#x000A;From here you can go west to the Living room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garden&#x000A;The garden is pristine, every bush and flower meticulously arranged to perfection, as if prepared for a royal visit. Strings of fairy lights drape from tree to tree, casting a soft, golden glow over the vibrant blooms. The scent of roses and freshly mowed grass lingers in the crisp night air. A majestic fountain sparkles at the center, but nearby, a once-proud marble sculpture lies shattered on the ground, its pieces scattered like a puzzle. The damage looks fresh, and the footprints leading away suggest someone was here-and left in a hurry.&#x000A;&#x000A;From here you can go east to go to the Grand Hall.&#x000A;&#x000A;You can see a rose chest (closed) and a rose bush here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">take map</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">look at map</command>
+    <result xml:space="preserve">N&#x000A;                                                 &#x000A;                                Simon's room        Library&#x000A;                                            |                        |&#x000A;                                            |                        |&#x000A;              Small Hall ------ Living Room ---- Terrace&#x000A; W                                        |                                                                        E &#x000A;                                            |                         &#x000A;                  Garden ----Grand Hall --- Dining Room ------ Kitchen&#x000A;                                            |                       |&#x000A;                                            |                       |&#x000A;                               Main Entrance     Staff Rooms&#x000A;                                          &#x000A;                                                         S&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">interrogate Mario</command>
+    <result xml:space="preserve">Mario seems nervous but shares what he knows.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">interrogate smurfette</command>
+    <result xml:space="preserve">I would NEVER hurt anyone! I'm a SMURF for Smurf's sake! And on top of that, I'm Simon's SMURFriend! We've been dating for 2 SMURFTASTIC years, and he was an absolute gem! Oh-OH SIMON!!! starts crying How could anyone be so cruel? I bet it was Gargamel! That evil wizard must've put a spell on someone to do his SMURFY dirty work! sniffs dramatically&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">interrogate sponge</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">Haha! Chipmunk?? What chipmunk? I have NEVER seen one in my life! OH SIMON THE CHIPMUNK! Of course I know Simon! He was always hanging around the Krusty Krab... you know, trying to sneak free Krabby Patties! Why do you ask?...... NO, I'M NOT HIDING ANYTHING!! YOU'LL NEVER CATCH ME ALIVE! runs away, slipping on some butter&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+      <child nodeId="node-31"/>
+      <child nodeId="node-32"/>
+      <child nodeId="node-61"/>
+      <child nodeId="node-96"/>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">interrogate shrek</command>
+    <result xml:space="preserve">Well, to be honest, I didn't really like tha" guy. Don't hold it against me, but he was a right rich snob, he was! Aye, I dinnae think he deserved to be killed, but och, he sure knew how t'make a person want t'kill him! Hah! What, did I say somethin" wrong?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">interrogate shakira</command>
+    <result xml:space="preserve">Ah, cari&#x00F1;o, I work in the same industry as Simon, and let me tell you, it's not uncommon to make enemies with some very powerful people. But Dios m&#x00ED;o, I never expected this! We used to be close, working together a lot, but not so much lately. Simon and I even did a collab on a song once, back when he was still part of a group. Ay, perd&#x00F3;n, I'm still in shock... &#x00A1;qu&#x00E9; locura! Who in their right mind could have done such a horrible thing?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">interrogate smurfette</command>
+    <result xml:space="preserve">I would NEVER hurt anyone! I'm a SMURF for Smurf's sake! And on top of that, I'm Simon's SMURFriend! We've been dating for 2 smurftastic years, and he was an absolute gem! Oh-OH SIMON!!! starts crying How could anyone be so cruel? I bet it was Gargamel! That evil wizard must've put a spell on someone to do his SMURFY dirty work! sniffs dramatically&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">interrogate mario</command>
+    <result xml:space="preserve">Oh mamma mia, che incubo! He was like-a my brother, you know... or-a at least... nevermind. I still can't-a believe what-a happened! Me and Simon, we got-a closer after-a his brothers died. He was lonely, needed a friend, so I-a stepped up, you know? It wasn't-a me! Oh povero Simon! I was-a just going to...no, why-a would I ever-a hurt him?!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">Haha! Chipmunk?? What chipmunk? I have NEVER seen one in my life! OH SIMON THE CHIPMUNK! Of course I know Simon! He was always hanging around the Krusty Krab... you know, trying to sneak free Krabby Patties! Why do you ask?...... NO, I'M NOT HIDING ANYTHING!! YOU'LL NEVER CATCH ME ALIVE! runs away, slipping on some butter&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">interrogate smurfette</command>
+    <result xml:space="preserve">I would NEVER hurt anyone! I'm a SMURF for Smurf's sake! And on top of that, I'm Simon's SMURFriend! We've been dating for 2 smurftastic years, and he was an absolute gem! Oh-OH SIMON!!! starts crying How could anyone be so cruel? I bet it was Gargamel! That evil wizard must've put a spell on someone to do his SMURFY dirty work! sniffs dramatically&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Simon's room&#x000A;Simon's room feels more like a miniature world than a traditional bedroom. Tiny, ornate furniture is arranged with meticulous precision, from a walnut-shell bed lined with silk to a thimble-sized lamp on the nightstand. The air is sweet with the faint scent of acorns, and an open chest in the corner overflows with shiny trinkets and treasures. Despite its charm, a few scattered papers on the floor and a knocked-over stool suggest that not everything was as perfectly in place as it seemed.&#x000A;&#x000A;From here you can only go south to the Small Hall.&#x000A;&#x000A;You can see a bed, a mirror, a poster and a computer here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+      <child nodeId="node-36"/>
+      <child nodeId="node-45"/>
+      <child nodeId="node-56"/>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">look under the bed</command>
+    <result xml:space="preserve">You find a photograph here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-34"/>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">look under bed</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">examine photo</command>
+    <result xml:space="preserve">A photograph of a chipmunk standing next to a female gnome eating a pizza. The writing on the back says, "From Rose to her little brother."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">look under bed</command>
+    <result xml:space="preserve">You find a photograph here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">take photo</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;You can see Duck-tective here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">terrace&#x000A;The terrace offers a breathtaking view of the garden below, though the cold night air seems to carry a sense of unease. Elegant wrought-iron furniture is neatly arranged, yet a single chair is overturned, hinting at a moment of panic or a hurried escape.&#x000A;&#x000A;From here you can go west to the Living room.&#x000A;&#x000A;You can see a vase of roses here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">look under vase</command>
+    <result xml:space="preserve">You find a key hidden under the vase.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">look under vase</command>
+    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">look behind mirror</command>
+    <result xml:space="preserve">Behind the mirror, you notice a deep hole in the wall. It's not big enough to walk into but you can crawl north inside the hole.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Simon's room&#x000A;Simon's room feels more like a miniature world than a traditional bedroom. Tiny, ornate furniture is arranged with meticulous precision, from a walnut-shell bed lined with silk to a thimble-sized lamp on the nightstand. The air is sweet with the faint scent of acorns, and an open chest in the corner overflows with shiny trinkets and treasures. Despite its charm, a few scattered papers on the floor and a knocked-over stool suggest that not everything was as perfectly in place as it seemed.&#x000A;&#x000A;From here you can only go south to the Small Hall.&#x000A;&#x000A;You can see a bed and a mirror here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a map, a wooden bat, a flashlight and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Simon's room&#x000A;Simon's room feels more like a miniature world than a traditional bedroom. Tiny, ornate furniture is arranged with meticulous precision, from a walnut-shell bed lined with silk to a thimble-sized lamp on the nightstand. The air is sweet with the faint scent of acorns, and an open chest in the corner overflows with shiny trinkets and treasures. Despite its charm, a few scattered papers on the floor and a knocked-over stool suggest that not everything was as perfectly in place as it seemed.&#x000A;&#x000A;From here you can only go south to the Small Hall.&#x000A;&#x000A;You can see a bed and a mirror here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">hole&#x000A;It's a hidden tunnel! And look-there, at the end, a chest awaits! No amount of money or fame could ever change the fact that he was just a small chipmunk.&#x000A;&#x000A;You can see a hidden chest here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">examine chest</command>
+    <result xml:space="preserve">A locked chest is tucked away inside the hole. Who knows what treasures lie inside...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">look at computer</command>
+    <result xml:space="preserve">The computer is locked. You'll need to type the correct password to unlock it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">examine computer</command>
+    <result xml:space="preserve">The computer is locked. You'll need to type the correct password to unlock it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">examine computer</command>
+    <result xml:space="preserve">The computer is locked. You'll need to type the correct password to unlock it. To guess the password write "type (password).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">type alvin</command>
+    <result xml:space="preserve">The computer accepts the password and unlocks with a soft beep. The desktop is now accessible.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">examine computer</command>
+    <result xml:space="preserve">The computer is unlocked and displays its desktop. A messaging app icon catches your eye. You open it to see a chat with Simon's manager. &#x000A;"Simon: Did you get the files for the next song?" &#x000A;"Manager: Yes, it's the chart-topper from that artist we talked about. I'll tweak it to make it unrecognizable." &#x000A;"Simon: Perfect. Once I rework the lyrics, it'll be another hit for me." &#x000A;"Manager: Don't forget my cut for \other services.\" &#x000A;"Simon: Relax. Your payment is already scheduled."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen, warm and bustling earlier, now feels oddly sterile. Pots and pans hang from hooks above the counters, and the faint aroma of spices lingers. However, something tells you this kitchen holds secrets beyond its recipes.&#x000A;&#x000A;From here you can go west to the Dining Room.&#x000A;&#x000A;You can see a sticky note here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-62"/>
+      <child nodeId="node-83"/>
+      <child nodeId="node-86"/>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">terrace&#x000A;The terrace offers a breathtaking view of the garden below, though the cold night air seems to carry a sense of unease. Elegant wrought-iron furniture is neatly arranged, yet a single chair is overturned, hinting at a moment of panic or a hurried escape.&#x000A;&#x000A;From here you can go west to the Living room.&#x000A;&#x000A;You can see a vase of roses here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">look under vase</command>
+    <result xml:space="preserve">You find a key hidden under the vase.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">examine map</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;You can see Duck-tective here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a map here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garden&#x000A;The garden is pristine, every bush and flower meticulously arranged to perfection, as if prepared for a royal visit. Strings of fairy lights drape from tree to tree, casting a soft, golden glow over the vibrant blooms. The scent of roses and freshly mowed grass lingers in the crisp night air. A majestic fountain sparkles at the center, but nearby, a once-proud marble sculpture lies shattered on the ground, its pieces scattered like a puzzle. The damage looks fresh, and the footprints leading away suggest someone was here-and left in a hurry.&#x000A;&#x000A;From here you can go east to go to the Grand Hall.&#x000A;&#x000A;You can see a rose chest (closed) and a rose bush here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">look under the vase</command>
+    <result xml:space="preserve">You find a key hidden under the vase.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;The fireplace is cold and filled with a layer of ash, the charred remains of logs scattered within. Something faintly catches the eye-barely noticeable amid the soot, as if hiding in plain sight.&#x000A;&#x000A;You can also see Duck-tective and a mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a map, a wooden bat, a flashlight and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a map, a wooden bat, a flashlight and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garden&#x000A;The garden is pristine, every bush and flower meticulously arranged to perfection, as if prepared for a royal visit. The scent of roses and freshly mowed grass lingers in the crisp night air. A majestic fountain sparkles at the center, but nearby, a once-proud marble sculpture lies shattered on the ground, its pieces scattered like a puzzle. The damage looks fresh, and the footprints leading away suggest someone was here-and left in a hurry. From here you can go east to go to the Grand Hall.&#x000A;&#x000A;From here you can go east to go to the Grand Hall.&#x000A;&#x000A;You can see a rose bush and a statue here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">look inside the bush</command>
+    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">look behind bush</command>
+    <result xml:space="preserve">There's a small chest there.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">With a creak, the chest opens, revealing a vast amount of gold and money spilling out! Piles of coins, jewels, and stacks of bills fill the chest. Whoever knew about this chest, had a strong motive for murdering poor Simon. How did you find that key again?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">library&#x000A;A sanctuary of knowledge turned suspicious. The heavy scent of old books and polished wood fills the air, while rows of towering shelves cast long shadows. A grand desk sits in the corner, its surface cluttered with papers that seem oddly out of place, as if someone had been searching for something. Most of the books are dusty, it's obvious they haven't been touched for years. But a couple of them were obviously recently taken from the dusty shelves.&#x000A;&#x000A;From here you can go south to the Living Room.&#x000A;&#x000A;You can see a family history book and a document here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">examine document</command>
+    <result xml:space="preserve">The table is a mess of scattered papers, some crumpled, others smudged with dirt. Pages overlap at odd angles, diagrams half-hidden beneath budget sheets and handwritten notes. But one document stands out with something scribbled on it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">read document</command>
+    <result xml:space="preserve">The table is a mess of scattered papers, some crumpled, others smudged with dirt. Pages overlap at odd angles, diagrams half-hidden beneath budget sheets and handwritten notes. But one document stands out with something scribbled on it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">library&#x000A;A sanctuary of knowledge turned suspicious. The heavy scent of old books and polished wood fills the air, while rows of towering shelves cast long shadows. A grand desk sits in the corner, its surface cluttered with papers that seem oddly out of place, as if someone had been searching for something. Most of the books are dusty, it's obvious they haven't been touched for years. But a couple of them were obviously recently taken from the dusty shelves.&#x000A;&#x000A;From here you can go south to the Living Room.&#x000A;&#x000A;You can see a family history book and a document here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">read document</command>
+    <result xml:space="preserve">You read: Project Documentation - "The Swampwood Initiative"&#x000A;&#x000A;Title Page: "The Swampwood Initiative: Sustainable Resources for the Future" Below the title, a logo of a sleek tree with its roots intertwined in dollar signs.&#x000A;&#x000A;Key Excerpt (Page 3): Phase One: Harvesting the untapped potential of swamp ecosystems. The unique tree species found sorrounding swamps will provide unmatched durability and aesthetic for luxury furniture and construction materials.&#x000A;&#x000A;Budget Overview (Page 7): Projected Annual Revenue: $3.5 million. Project funded by Simon Woodsworth (lead investor).&#x000A;&#x000A;Environmental Impact Analysis (Page 12): "Minimal disruption" circled furiously, with "LIARS" scrawled next to it.&#x000A;&#x000A;Handwritten Letter (Tucked into the papers): A note addressed to Simon: "Simon, I trust you'll handle the "green activists" in your area. We need those trees cleared by next quarter. No delays." It's signed with the initials "G.B." &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">read note</command>
+    <result xml:space="preserve">You read: The note says Keep quiet. If you know what's good for you, stay out of it. You don't want to see what happens if you don't. A greasy stain at the bottom of the note-strangely, it smells faintly of seawater.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">look at note</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">examine sticky</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">examine burger</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">look at burger</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Simon's room&#x000A;Simon's room feels more like a miniature world than a traditional bedroom. Tiny, ornate furniture is arranged with meticulous precision, from a walnut-shell bed lined with silk to a thimble-sized lamp on the nightstand. The air is sweet with the faint scent of acorns, and an open chest in the corner overflows with shiny trinkets and treasures. Despite its charm, a few scattered papers on the floor and a knocked-over stool suggest that not everything was as perfectly in place as it seemed.&#x000A;&#x000A;From here you can only go south to the Small Hall.&#x000A;&#x000A;You can see a bed, a mirror, a poster and a computer here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">look at computer</command>
+    <result xml:space="preserve">The computer is locked. You'll need to type the correct password to unlock it. To guess the password write "type (password).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">type Alvin</command>
+    <result xml:space="preserve">The computer flashes an error message: "Invalid Password. Try Again."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">examine burger</command>
+    <result xml:space="preserve">Someone took only one bite of this Krabby Patty. I wonder if it was poisoned or simply bad.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-101"/>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">look at burger</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">read burger</command>
+    <result xml:space="preserve">Nothing is written on the burger.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a map, a wooden bat, a flashlight and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">examine map</command>
+    <result xml:space="preserve">N&#x000A;                                                 &#x000A;                                Simon's room        Library&#x000A;                                            |                        |&#x000A;                                            |                        |&#x000A;                                     Small Hall ------ Living Room ---- Terrace&#x000A; W                                        |                                                                        E &#x000A;                                            |                         &#x000A;                  Garden ----Grand Hall --- Dining Room ------ Kitchen&#x000A;                                            |                       |&#x000A;                                            |                       |&#x000A;                               Main Entrance     Staff Room&#x000A;                                          &#x000A;                                                         S&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Staff Room&#x000A;A small, functional room where the staff can catch their breath. The furniture is sparse-just a couple of old chairs and a cluttered table with papers scattered across it. The air feels thick with unease as all the suspects have been brought here until the investigation is over. They sit in silence, each one lost in their thoughts, glancing nervously at each other. After you gather up the initial information, you can ask them about the clues you find to get information about it.&#x000A;&#x000A;Go ahead and interrogate the suspects!&#x000A;&#x000A;From here you can go north to the Dining Room.&#x000A;&#x000A;You can see Shrek the ogre, Super Mario, SpongeBob, Smurfette and Shakira here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">examine spongebob</command>
+    <result xml:space="preserve">SpongeBob is, as always, full of energy, but there's a strange heaviness to his usual wide-eyed optimism tonight. His square, yellow sponge body and big blue eyes are instantly recognizable. His youthful grin masks a deeper tension beneath the surface. His movements are a little twitchy, and he seems to be avoiding certain suspects in the room, though you can't quite tell why.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">SpongeBob: Haha! Chipmunk?? What chipmunk? I have NEVER seen one in my life! OH SIMON THE CHIPMUNK! Of course I know Simon! He was always hanging around the Krusty Krab... He even employed me to make Krabby Patties for some parties he was hosting. Why do you ask?...... NO, I'M NOT HIDING ANYTHING!! YOU'LL NEVER CATCH ME ALIVE! He runs away, slipping on some butter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">You begin questioning SpongeBob.&#x000A;SpongeBob: Ah, so you've tried the old Krabby Patty! Glad to have a new costumer! Sorry, I can't tell you the recipe. It's a secret. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">You begin questioning SpongeBob.&#x000A;SpongeBob: Ah, so you've tried the old Krabby Patty! Glad to have a new costumer! Sorry, I can't tell you the recipe. It's a secret. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">interrogate shakira</command>
+    <result xml:space="preserve">Shakira: Ah, cari&#x00F1;o, I work in the same industry as Simon, and let me tell you, it's not uncommon to make enemies with some very powerful people. But Dios m&#x00ED;o, I never expected this! We used to be close, working together a lot, but not so much lately. Simon and I even did a collab on a song once, back when he was still part of a group. Ay, perd&#x00F3;n, I'm still in shock... &#x00A1;qu&#x00E9; locura! Who in their right mind could have done such a horrible thing?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">interrogate shakira</command>
+    <result xml:space="preserve">You begin questioning Shakira.&#x000A;Shakira says, "I already told you, I have nothing to do with this!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">examine ma&#x0161;</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">examine map</command>
+    <result xml:space="preserve">N&#x000A;                                                 &#x000A;                                Simon's room        Library&#x000A;                                            |                        |&#x000A;                                            |                        |&#x000A;                                     Small Hall ------ Living Room ---- Terrace&#x000A; W                                        |                                                                        E &#x000A;                                            |                         &#x000A;                  Garden ----Grand Hall --- Dining Room ------ Kitchen&#x000A;                                            |                       |&#x000A;                                            |                       |&#x000A;                               Main Entrance     Staff Room&#x000A;                                          &#x000A;                                                         S&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">map</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">look at map</command>
+    <result xml:space="preserve">N&#x000A;                                                 &#x000A;                                Simon's room        Library&#x000A;                                            |                        |&#x000A;                                            |                        |&#x000A;                                     Small Hall ------ Living Room ---- Terrace&#x000A; W                                        |                                                                        E &#x000A;                                            |                         &#x000A;                  Garden ----Grand Hall --- Dining Room ------ Kitchen&#x000A;                                            |                       |&#x000A;                                            |                       |&#x000A;                               Main Entrance     Staff Room&#x000A;                                          &#x000A;                                                         S&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Simon's room&#x000A;Simon's room feels more like a miniature world than a traditional bedroom. Tiny, ornate furniture is arranged with meticulous precision, from a walnut-shell bed lined with silk to a thimble-sized lamp on the nightstand. The air is sweet with the faint scent of acorns, and an open chest in the corner overflows with shiny trinkets and treasures. Despite its charm, a few scattered papers on the floor and a knocked-over stool suggest that not everything was as perfectly in place as it seemed.&#x000A;&#x000A;From here you can only go south to the Small Hall.&#x000A;&#x000A;You can see a photo here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">look behind the bush</command>
+    <result xml:space="preserve">There's a small chest there.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">examine chest</command>
+    <result xml:space="preserve">A beautifully crafted chest with rose carvings on it. It's locked tight.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;A flashlight might come in handy for dark spaces.&#x000A;&#x000A;You can also see a map and a wooden bat here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garden&#x000A;The garden is pristine, every bush and flower meticulously arranged to perfection, as if prepared for a royal visit. The scent of roses and freshly mowed grass lingers in the crisp night air. A majestic fountain sparkles at the center, but nearby, a once-proud marble sculpture lies shattered on the ground, its pieces scattered like a puzzle. The damage looks fresh, and the footprints leading away suggest someone was here-and left in a hurry. From here you can go east to go to the Grand Hall.&#x000A;&#x000A;From here you can go east to go to the Grand Hall.&#x000A;&#x000A;You can see a rose bush and a statue here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garden&#x000A;The garden is pristine, every bush and flower meticulously arranged to perfection, as if prepared for a royal visit. The scent of roses and freshly mowed grass lingers in the crisp night air. A majestic fountain sparkles at the center, but nearby, a once-proud marble sculpture lies shattered on the ground, its pieces scattered like a puzzle. The damage looks fresh, and the footprints leading away suggest someone was here-and left in a hurry. From here you can go east to go to the Grand Hall.&#x000A;&#x000A;From here you can go east to go to the Grand Hall.&#x000A;&#x000A;You can see a rose bush and a statue here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">look behind bush</command>
+    <result xml:space="preserve">There's a small chest there.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a map, a wooden bat and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Simon's room&#x000A;Simon's room feels more like a miniature world than a traditional bedroom. Tiny, ornate furniture is arranged with meticulous precision, from a walnut-shell bed lined with silk to a thimble-sized lamp on the nightstand. The air is sweet with the faint scent of acorns, and an open chest in the corner overflows with shiny trinkets and treasures. Despite its charm, a few scattered papers on the floor and a knocked-over stool suggest that not everything was as perfectly in place as it seemed.&#x000A;&#x000A;From here you can only go south to the Small Hall.&#x000A;&#x000A;You can see a bed and a mirror here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;The fireplace is cold and filled with a layer of ash, the charred remains of logs scattered within. Something faintly catches the eye-barely noticeable amid the soot, as if hiding in plain sight.&#x000A;&#x000A;You can also see Duck-tective and a mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">terrace&#x000A;The terrace offers a breathtaking view of the garden below, though the cold night air seems to carry a sense of unease. Elegant wrought-iron furniture is neatly arranged, yet a single chair is overturned, hinting at a moment of panic or a hurried escape.&#x000A;&#x000A;From here you can go west to the Living room.&#x000A;&#x000A;You can see a vase of roses here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">look under vase</command>
+    <result xml:space="preserve">You find a key hidden under the vase.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;The fireplace is cold and filled with a layer of ash, the charred remains of logs scattered within. Something faintly catches the eye-barely noticeable amid the soot, as if hiding in plain sight.&#x000A;&#x000A;You can also see Duck-tective and a mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a map, a wooden bat and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garden&#x000A;The garden is pristine, every bush and flower meticulously arranged to perfection, as if prepared for a royal visit. The scent of roses and freshly mowed grass lingers in the crisp night air. A majestic fountain sparkles at the center, but nearby, a once-proud marble sculpture lies shattered on the ground, its pieces scattered like a puzzle. The damage looks fresh, and the footprints leading away suggest someone was here-and left in a hurry. From here you can go east to go to the Grand Hall.&#x000A;&#x000A;From here you can go east to go to the Grand Hall.&#x000A;&#x000A;You can see a rose chest, a rose bush and a statue here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">look behind bush</command>
+    <result xml:space="preserve">Nothing special there.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Simon's room&#x000A;Simon's room feels more like a miniature world than a traditional bedroom. Tiny, ornate furniture is arranged with meticulous precision, from a walnut-shell bed lined with silk to a thimble-sized lamp on the nightstand. The air is sweet with the faint scent of acorns, and an open chest in the corner overflows with shiny trinkets and treasures. Despite its charm, a few scattered papers on the floor and a knocked-over stool suggest that not everything was as perfectly in place as it seemed.&#x000A;&#x000A;From here you can only go south to the Small Hall.&#x000A;&#x000A;You can see a bed and a mirror here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">look behind mirror</command>
+    <result xml:space="preserve">Behind the mirror, you notice a deep hole in the wall. It's not big enough to walk into but you can crawl north inside the hole.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;The fireplace is cold and filled with a layer of ash, the charred remains of logs scattered within. Something faintly catches the eye-barely noticeable amid the soot, as if hiding in plain sight.&#x000A;&#x000A;You can also see Duck-tective and a mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">terrace&#x000A;The terrace offers a breathtaking view of the garden below, though the cold night air seems to carry a sense of unease. Elegant wrought-iron furniture is neatly arranged, yet a single chair is overturned, hinting at a moment of panic or a hurried escape.&#x000A;&#x000A;From here you can go west to the Living room.&#x000A;&#x000A;You can see a vase of roses here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">look under vase</command>
+    <result xml:space="preserve">You find a key hidden under the vase.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;The fireplace is cold and filled with a layer of ash, the charred remains of logs scattered within. Something faintly catches the eye-barely noticeable amid the soot, as if hiding in plain sight.&#x000A;&#x000A;You can also see Duck-tective and a mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a map, a wooden bat and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garden&#x000A;The garden is pristine, every bush and flower meticulously arranged to perfection, as if prepared for a royal visit. The scent of roses and freshly mowed grass lingers in the crisp night air. A majestic fountain sparkles at the center, but nearby, a once-proud marble sculpture lies shattered on the ground, its pieces scattered like a puzzle. The damage looks fresh, and the footprints leading away suggest someone was here-and left in a hurry. From here you can go east to go to the Grand Hall.&#x000A;&#x000A;From here you can go east to go to the Grand Hall.&#x000A;&#x000A;You can see a rose bush and a statue here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">look behind bush</command>
+    <result xml:space="preserve">There's a small chest there.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">examine statue</command>
+    <result xml:space="preserve">Amidst the flowers, a Greek statue lies shattered on the ground. The head rests a few feet away, the arms broken and scattered. Cracks spider through the marble, leaving it a shadow of its former grandeur.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">look behind bush</command>
+    <result xml:space="preserve">There's a small chest there.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">unlock chest</command>
+    <result xml:space="preserve">What do you want to unlock the rose chest with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">unlock chest with key</command>
+    <result xml:space="preserve">You turn the rose key in the lock, and with a satisfying click, the chest opens. Inside, you find a letter from Simon's dad.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">read letter</command>
+    <result xml:space="preserve">Is it a love letter? Is it a suicide note? Only way to find out is to read it!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">examine suit </command>
+    <result xml:space="preserve">A tall, imposing suit of armor stands here, its polished surface reflecting the dim light.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Staff Room&#x000A;A small, functional room where the staff can catch their breath. The furniture is sparse-just a couple of old chairs and a cluttered table with papers scattered across it. The air feels thick with unease as all the suspects have been brought here until the investigation is over. They sit in silence, each one lost in their thoughts, glancing nervously at each other. After you gather up the initial information, you can ask them about the clues you find to get information about it.&#x000A;&#x000A;Go ahead and interrogate the suspects!&#x000A;&#x000A;From here you can go north to the Dining Room.&#x000A;&#x000A;You can see Shrek the ogre, Super Mario, SpongeBob, Smurfette and Shakira here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">interrogate shrek</command>
+    <result xml:space="preserve">Shrek: Well, to be honest, I didn't really like tha" guy. Don't hold it against me, but he was a right rich snob, he was! Aye, I dinnae think he deserved to be killed, but och, he sure knew how t'make a person want t'kill him! Hah! What, did I say somethin" wrong?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">examine burger</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Staff Room&#x000A;A small, functional room where the staff can catch their breath. The furniture is sparse-just a couple of old chairs and a cluttered table with papers scattered across it. The air feels thick with unease as all the suspects have been brought here until the investigation is over. They sit in silence, each one lost in their thoughts, glancing nervously at each other. After you gather up the initial information, you can ask them about the clues you find to get information about it.&#x000A;&#x000A;Go ahead and interrogate the suspects!&#x000A;&#x000A;From here you can go north to the Dining Room.&#x000A;&#x000A;You can see Shrek the ogre, Super Mario, SpongeBob, Smurfette and Shakira here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">SpongeBob: Haha! Chipmunk?? What chipmunk? I have NEVER seen one in my life! OH SIMON THE CHIPMUNK! Of course I know Simon! He was always hanging around the Krusty Krab... He even employed me to make Krabby Patties for some parties he was hosting. Why do you ask?...... NO, I'M NOT HIDING ANYTHING!! YOU'LL NEVER CATCH ME ALIVE! He runs away, slipping on some butter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">You begin questioning SpongeBob.&#x000A;SpongeBob: Ah, so you've tried the old Krabby Patty! Glad to have a new costumer! Sorry, I can't tell you the recipe. It's a secret. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">You begin questioning SpongeBob.&#x000A;SpongeBob: Ah, so you've tried the old Krabby Patty! Glad to have a new costumer! Sorry, I can't tell you the recipe. It's a secret. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">interrogate shrek</command>
+    <result xml:space="preserve">You begin questioning Shrek the ogre.&#x000A;Shrek the ogre says, "I already told you, I have nothing to do with this!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen, warm and bustling earlier, now feels oddly sterile. Pots and pans hang from hooks above the counters, and the faint aroma of spices lingers. However, something tells you this kitchen holds secrets beyond its recipes.&#x000A;&#x000A;From here you can go west to the Dining Room.&#x000A;&#x000A;You can see a note here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">read note</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">A small sticky note left on the kitchen counter. There is something written on it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">read note</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">read the note</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen, warm and bustling earlier, now feels oddly sterile. Pots and pans hang from hooks above the counters, and the faint aroma of spices lingers. However, something tells you this kitchen holds secrets beyond its recipes.&#x000A;&#x000A;From here you can go west to the Dining Room.&#x000A;&#x000A;You can see a note here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">read note</command>
+    <result xml:space="preserve">You read: The note says Keep quiet. If you know what's good for you, stay out of it. You don't want to see what happens if you don't. A greasy stain at the bottom of the note-strangely, it smells faintly of seawater.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Staff Room&#x000A;A small, functional room where the staff can catch their breath. The furniture is sparse-just a couple of old chairs and a cluttered table with papers scattered across it. The air feels thick with unease as all the suspects have been brought here until the investigation is over. They sit in silence, each one lost in their thoughts, glancing nervously at each other. After you gather up the initial information, you can ask them about the clues you find to get information about it.&#x000A;&#x000A;Go ahead and interrogate the suspects!&#x000A;&#x000A;From here you can go north to the Dining Room.&#x000A;&#x000A;You can see Shrek the ogre, Super Mario, SpongeBob, Smurfette and Shakira here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">SpongeBob: Haha! Chipmunk?? What chipmunk? I have NEVER seen one in my life! OH SIMON THE CHIPMUNK! Of course I know Simon! He was always hanging around the Krusty Krab... He even employed me to make Krabby Patties for some parties he was hosting. Why do you ask?...... NO, I'M NOT HIDING ANYTHING!! YOU'LL NEVER CATCH ME ALIVE! He runs away, slipping on some butter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">You begin questioning SpongeBob.&#x000A;SpongeBob says, "I already told you, I have nothing to do with this!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-184"/>
+    </children>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-185"/>
+    </children>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Staff Room&#x000A;A small, functional room where the staff can catch their breath. The furniture is sparse-just a couple of old chairs and a cluttered table with papers scattered across it. The air feels thick with unease as all the suspects have been brought here until the investigation is over. They sit in silence, each one lost in their thoughts, glancing nervously at each other. After you gather up the initial information, you can ask them about the clues you find to get information about it.&#x000A;&#x000A;Go ahead and interrogate the suspects!&#x000A;&#x000A;From here you can go north to the Dining Room.&#x000A;&#x000A;You can see Shrek the ogre, Super Mario, SpongeBob, Smurfette and Shakira here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">You begin questioning SpongeBob.&#x000A;SpongeBob says, "I already told you, I have nothing to do with this!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">SpongeBob: Haha! Chipmunk?? What chipmunk? I have NEVER seen one in my life! OH SIMON THE CHIPMUNK! Of course I know Simon! He was always hanging around the Krusty Krab... He even employed me to make Krabby Patties for some parties he was hosting. Why do you ask?...... NO, I'M NOT HIDING ANYTHING!! YOU'LL NEVER CATCH ME ALIVE! He runs away, slipping on some butter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-189"/>
+    </children>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen, warm and bustling earlier, now feels oddly sterile. Pots and pans hang from hooks above the counters, and the faint aroma of spices lingers. However, something tells you this kitchen holds secrets beyond its recipes.&#x000A;&#x000A;From here you can go west to the Dining Room.&#x000A;&#x000A;You can see a note here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">A small sticky note left on the kitchen counter. There is something written on it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-191"/>
+    </children>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">read note</command>
+    <result xml:space="preserve">You read: The note says Keep quiet. If you know what's good for you, stay out of it. You don't want to see what happens if you don't. A greasy stain at the bottom of the note-strangely, it smells faintly of seawater.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">A Nutter Mystery&#x000A;An Interactive Fiction by Laura Kriskovic&#x000A;Release 1 / Serial number 250116 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Staff Room&#x000A;A small, functional room where the staff can catch their breath. The furniture is sparse-just a couple of old chairs and a cluttered table with papers scattered across it. The air feels thick with unease as all the suspects have been brought here until the investigation is over. They sit in silence, each one lost in their thoughts, glancing nervously at each other. After you gather up the initial information, you can ask them about the clues you find to get information about it.&#x000A;&#x000A;Go ahead and interrogate the suspects!&#x000A;&#x000A;From here you can go north to the Dining Room.&#x000A;&#x000A;You can see Shrek the ogre, Super Mario, SpongeBob, Smurfette and Shakira here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-193"/>
+      <child nodeId="node-194"/>
+      <child nodeId="node-196"/>
+      <child nodeId="node-198"/>
+      <child nodeId="node-200"/>
+      <child nodeId="node-201"/>
+      <child nodeId="node-207"/>
+    </children>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">guess Shrek</command>
+    <result xml:space="preserve">You accuse Shrek, and Duck-tective rolls his eyes.&#x000A;&#x000A;"Shrek found out Mario was behind a project destroying his beloved swamp, so he set off to avenge his home. Armed with a wooden bat, he arrived at Simon's house, ready to wreak havoc. He started by smashing a statue in the garden when Simon opened the door. Realizing the trouble he was in, Simon invited Shrek to the party, trying to calm him down. Shrek, though furious, eased up a little after a few Krabby Patties."&#x000A;&#x000A;"But things took a turn when Shrek snooped around Simon's house and found a document confirming the project was already set in motion, claiming minimal environmental impact. Enraged by the deceit, Shrek couldn't hold back. At the party, in front of everyone, he stomped down hard on Simon, crushing him completely. No one even noticed as his tiny body was crushed underfoot." "Shrek just stood there, panting. His face twisted in frustration. "I couldn't let him get away with it. He was ruin" everything... ma family... ma swamp," Shrek muttered to himself, rubbin" his brow. "But now... now it's safe. Too bad it had to end like this."&#x000A;&#x000A;Duck-tective lets out a long sigh. "A sad way for things to end&#x2026;but that is the tragic way of life."&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">guess shrek</command>
+    <result xml:space="preserve">You accuse Shrek, and Duck-tective rolls his eyes.&#x000A;&#x000A;"Shrek found out Mario was behind a project destroying his beloved swamp, so he set off to avenge his home. Armed with a wooden bat, he arrived at Simon's house, ready to wreak havoc. He started by smashing a statue in the garden when Simon opened the door. Realizing the trouble he was in, Simon invited Shrek to the party, trying to calm him down. Shrek, though furious, eased up a little after a few Krabby Patties."&#x000A;&#x000A;"But things took a turn when Shrek snooped around Simon's house and found a document confirming the project was already set in motion, claiming minimal environmental impact. Enraged by the deceit, Shrek couldn't hold back. At the party, in front of everyone, he stomped down hard on Simon, crushing him completely. No one even noticed as his tiny body was crushed underfoot." "Shrek just stood there, panting. His face twisted in frustration. "I couldn't let him get away with it. He was ruin" everything... ma family... ma swamp," Shrek muttered to himself, rubbin" his brow. "But now... now it's safe. Too bad it had to end like this."&#x000A;&#x000A;Duck-tective lets out a long sigh. "A sad way for things to end&#x2026;but that is the tragic way of life."&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">guess shakira</command>
+    <result xml:space="preserve">You accuse Shakira, and her face remains calm, though her eyes betray something else. Duck-tective steps forward, his beak sharp as he recounts the story.&#x000A;&#x000A;"Shakira met Simon years ago when he was just a young chipmunk. She saw his potential and watched as he skyrocketed to fame with his boy band, "Alvin and the Chipmunks." She even worked with him on a song once, proud of how far he had come. But that pride quickly turned to anger. Shakira soon discovered that Simon had been stealing songs from artists, including her. He'd change them just enough to avoid lawsuits, then claim them as his own. That was enough to make Shakira see red."&#x000A;&#x000A;"On New Year's Eve, Simon invited her to perform, promising her payment for her time. But that wasn't why Shakira was there. She had come to confront him, to search his house for proof of the thievery. And when she found it-Simon's own computer messages-Shakira was beyond furious. Her own manager, the very person who had helped her rise to fame, had been working behind her back with Simon.&#x000A;&#x000A;The rage inside her built, and during her performance, Shakira put her plan into action. She used Simon's remote to turn off the lights in the room, cloaking her movements in darkness. Then, in a swift and final act, she stepped on Simon with her heel. Just as his "step on me" poster suggested, it only took a second, and no one noticed the tiny body."&#x000A;&#x000A;Duck-tective raises an eyebrow. "What do you think apprentice? Was it worth it? The cost of a life for your dignity?&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">guess super mario</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">guess Super Mario</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">guess mario</command>
+    <result xml:space="preserve">You accuse Mario, and he gasps in shock. "No! Mamma mia, it wasn't-a me!" he cries, but Duck-tective steps in, smirking.&#x000A;&#x000A;"Oh, Mario, you thought you could fool us. You and Simon? Childhood friends, yes... but then he got rich, and you stayed poor. Simon treated you like dirt, didn't he?" Duck-tective quips.&#x000A;&#x000A;Mario shifts uncomfortably as Duck-tective continues, "But then you found out you were cousins-half-cousins, to be exact. You knew Simon's fortune would be yours if he died, so you wrote a fake will from his father to get close, finish him off, and claim the money. When the clock struck midnight, Mario turned of the lights using a remote, jumped on Simon, crushing him, and in the struggle, Simon's life ended."&#x000A;&#x000A;Mario's face falls, but Duck-tective grins. "Clever, but not clever enough."&#x000A;&#x000A;As Mario is taken away by the police, Duck-tective looks at you with a quack, "Did you catch the killer? Fortunately, yes. But you still have a lot to learn..."&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">interrogate shrek</command>
+    <result xml:space="preserve">Shrek: Well, to be honest, I didn't really like tha" guy. Don't hold it against me, but he was a right rich snob, he was! Aye, I dinnae think he deserved to be killed, but och, he sure knew how t'make a person want t'kill him! Hah! What, did I say somethin" wrong?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-202"/>
+    </children>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">interrogate shakira</command>
+    <result xml:space="preserve">Shakira: Ah, cari&#x00F1;o, I work in the same industry as Simon, and let me tell you, it's not uncommon to make enemies with some very powerful people. But Dios m&#x00ED;o, I never expected this! We used to be close, working together a lot, but not so much lately. Simon and I even did a collab on a song once, back when he was still part of a group. Ay, perd&#x00F3;n, I'm still in shock... &#x00A1;qu&#x00E9; locura! Who in their right mind could have done such a horrible thing?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve">eat burger</command>
+    <result xml:space="preserve">You stuff the burger in your face. You finally understand the hype about Krabby Patties. You won't even care if they're poisoned.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+    </children>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a map, a wooden bat, a flashlight and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-206"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-207">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-208"/>
+    </children>
+  </item>
+  <item nodeId="node-208">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a map, a wooden bat, a flashlight and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">take map</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">look at map</command>
+    <result xml:space="preserve">N&#x000A;                                                 &#x000A;                                Simon's room        Library&#x000A;                                            |                        |&#x000A;                                            |                        |&#x000A;                                     Small Hall ------ Living Room ---- Terrace&#x000A; W                                        |                                                                        E &#x000A;                                            |                         &#x000A;                  Garden ----Grand Hall --- Dining Room ------ Kitchen&#x000A;                                            |                       |&#x000A;                                            |                       |&#x000A;                               Main Entrance     Staff Room&#x000A;                                          &#x000A;                                                         S&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-211"/>
+    </children>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a wooden bat, a flashlight and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garden&#x000A;The garden is pristine, every bush and flower meticulously arranged to perfection, as if prepared for a royal visit. The scent of roses and freshly mowed grass lingers in the crisp night air. A majestic fountain sparkles at the center, but nearby, a once-proud marble sculpture lies shattered on the ground, its pieces scattered like a puzzle. The damage looks fresh, and the footprints leading away suggest someone was here-and left in a hurry. From here you can go east to go to the Grand Hall.&#x000A;&#x000A;From here you can go east to go to the Grand Hall.&#x000A;&#x000A;You can see a rose bush and a statue here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a wooden bat and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-216"/>
+    </children>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;The fireplace is cold and filled with a layer of ash, the charred remains of logs scattered within. Something faintly catches the eye-barely noticeable amid the soot, as if hiding in plain sight.&#x000A;&#x000A;You can also see Duck-tective, a mushroom, a spatula, a piano (on which is a sheet music), a stage and a couch here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">terrace&#x000A;The terrace offers a breathtaking view of the garden below, though the cold night air seems to carry a sense of unease. Elegant wrought-iron furniture is neatly arranged, yet a single chair is overturned, hinting at a moment of panic or a hurried escape.&#x000A;&#x000A;From here you can go west to the Living room.&#x000A;&#x000A;You can see a vase of roses here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">examine vase</command>
+    <result xml:space="preserve">A beautiful vase of roses stands on a little stool.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-220"/>
+    </children>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">look under vase</command>
+    <result xml:space="preserve">You find a key hidden under the vase.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">examine key</command>
+    <result xml:space="preserve">A small key with a rose engraving. It looks like it might fit something special.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-222"/>
+    </children>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">terrace&#x000A;The terrace offers a breathtaking view of the garden below, though the cold night air seems to carry a sense of unease. Elegant wrought-iron furniture is neatly arranged, yet a single chair is overturned, hinting at a moment of panic or a hurried escape.&#x000A;&#x000A;From here you can go west to the Living room.&#x000A;&#x000A;You can see a vase of roses here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-223"/>
+    </children>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;The fireplace is cold and filled with a layer of ash, the charred remains of logs scattered within. Something faintly catches the eye-barely noticeable amid the soot, as if hiding in plain sight.&#x000A;&#x000A;You can also see Duck-tective, a mushroom, a spatula, a piano (on which is a sheet music), a stage and a couch here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;The fireplace is cold and filled with a layer of ash, the charred remains of logs scattered within. Something faintly catches the eye-barely noticeable amid the soot, as if hiding in plain sight.&#x000A;&#x000A;You can also see Duck-tective, a mushroom, a spatula, a piano (on which is a sheet music), a stage and a couch here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">library&#x000A;A sanctuary of knowledge turned suspicious. The heavy scent of old books and polished wood fills the air, while rows of towering shelves cast long shadows. A grand desk sits in the corner, its surface cluttered with papers that seem oddly out of place, as if someone had been searching for something. Most of the books are dusty, it's obvious they haven't been touched for years. But a couple of them were obviously recently taken from the dusty shelves.&#x000A;&#x000A;From here you can go south to the Living Room.&#x000A;&#x000A;You can see a family history book, a document and a folder here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">look at book</command>
+    <result xml:space="preserve">An old, worn book titled "Family Ties and Legacy". It looks like it might contain something important.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">read book</command>
+    <result xml:space="preserve">You read: You open the book to find a family tree inside. It shows Simon's lineage, with one name scratched off under "Father". The name is unreadable, and the picture is not shown, but this detail seems significant. Ahh and of course next to Simon's picture there were his brothers, Alvin and Theodore, from whom he was unseparable in his younger days. May their little souls rest in piece.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Living room&#x000A;This is the room where it happened. Though the police have removed the body, the faint metallic scent of blood still lingers in the air. The grand furniture and ornate decor now feel cold and uninviting, as if the room itself remembers the crime.&#x000A;&#x000A;From here you can go north to the Library, west to the Small Hall or east to get to the Terrace.&#x000A;&#x000A;The fireplace is cold and filled with a layer of ash, the charred remains of logs scattered within. Something faintly catches the eye-barely noticeable amid the soot, as if hiding in plain sight.&#x000A;&#x000A;You can also see Duck-tective, a mushroom, a spatula, a piano (on which is a sheet music), a stage and a couch here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Simon's room&#x000A;Simon's room feels more like a miniature world than a traditional bedroom. Tiny, ornate furniture is arranged with meticulous precision, from a walnut-shell bed lined with silk to a thimble-sized lamp on the nightstand. The air is sweet with the faint scent of acorns, and an open chest in the corner overflows with shiny trinkets and treasures. Despite its charm, a few scattered papers on the floor and a knocked-over stool suggest that not everything was as perfectly in place as it seemed.&#x000A;&#x000A;From here you can only go south to the Small Hall.&#x000A;&#x000A;You can see a bed, a mirror, a poster and a computer here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">examine bed</command>
+    <result xml:space="preserve">It's pretty big for a chipmunk...almost the size of a cat's bed. Is there something hidden under it?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-233"/>
+    </children>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">look under bed</command>
+    <result xml:space="preserve">You find a photograph here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">examine photograph</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">examine photo</command>
+    <result xml:space="preserve">A photograph of a chipmunk standing next to a female gnome eating a pizza. The writing on the back says, "From Rose to her little brother."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Small Hall&#x000A;A narrow passageway connecting the rooms upstairs, the small hall is dimly lit, with worn rugs lining the floor. A faint scuff mark on the wall catches your attention, its origin unknown but undoubtedly suspicious.&#x000A;&#x000A;From here you can go east to the Living Room, north to enter Simon's room or south down the stairs to the Grand Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a wooden bat and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garden&#x000A;The garden is pristine, every bush and flower meticulously arranged to perfection, as if prepared for a royal visit. The scent of roses and freshly mowed grass lingers in the crisp night air. A majestic fountain sparkles at the center, but nearby, a once-proud marble sculpture lies shattered on the ground, its pieces scattered like a puzzle. The damage looks fresh, and the footprints leading away suggest someone was here-and left in a hurry. From here you can go east to go to the Grand Hall.&#x000A;&#x000A;From here you can go east to go to the Grand Hall.&#x000A;&#x000A;You can see a rose bush and a statue here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">look at bush</command>
+    <result xml:space="preserve">A bush with vibrant roses. Looks like something shines behind it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve">look behind bush</command>
+    <result xml:space="preserve">There's a small chest there.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-241"/>
+    </children>
+  </item>
+  <item nodeId="node-241">
+    <command xml:space="preserve">unlock chest with rose key</command>
+    <result xml:space="preserve">You turn the rose key in the lock, and with a satisfying click, the chest opens. Inside, you find a letter from Simon's dad.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-242"/>
+    </children>
+  </item>
+  <item nodeId="node-242">
+    <command xml:space="preserve">read letter</command>
+    <result xml:space="preserve">You read:  A letter from his father's will. It says:&#x000A;&#x000A;To my beloved son Simon,&#x000A;&#x000A;If you are reading this, it means I am no longer with you. I am sorry for the distance between us, both physical and emotional, over the years. Life has a way of stealing precious time, and I deeply regret the moments we lost.&#x000A;&#x000A;There is something I must tell you, a truth I kept hidden for your protection. Our family carries a terrible curse. It has haunted our bloodline for generations, striking down many of your ancestors, as it did your brothers. I fear it may be coming for you as well. I beg you to be vigilant, Simon. Guard yourself from harm, and trust no one too easily.&#x000A;&#x000A;But know this: though the bloodline may be cursed, family is more than blood. You have a half-cousin, Mario, who is tied to our legacy but spared from the curse. He is not of the direct bloodline, but he is family nonetheless. It is my deepest hope that you open your heart to him. His mother Rosie and I were very close in our youth.&#x000A;&#x000A;If, God forbid, the curse claims you as well, it is my wish that Mario takes over our estate, our property, and everything that was meant to be yours. He is the only one I trust to honor our family's name and ensure its legacy survives beyond this curse.&#x000A;&#x000A;Simon, you are stronger than you know. But remember, strength alone cannot undo the forces that conspire against us. Be careful, my son. My love and my hopes will remain with you, always.&#x000A;&#x000A;With all my love, Your Father&#x000A;&#x000A;Wow... a curse? Half-cousin? Who could have predicted this one? So all of Simon's property belongs to Mario now... very interesting... I wonder if Mario ever found out about this.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-243"/>
+    </children>
+  </item>
+  <item nodeId="node-243">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Grand Hall&#x000A;The centerpiece of the mansion, the grand hall exudes luxury with its gleaming marble floor and an opulent chandelier that sparkles above. Yet, the wide staircase and empty corridors seem to echo with whispers, as if the room itself is watching.&#x000A;&#x000A;From here you can go west out the back door to the Garden, south towards the Main Entrance, east to the Dining Room or north up stairs towards the Small Hall.&#x000A;&#x000A;You can see a wooden bat and a suit of armor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-244"/>
+    </children>
+  </item>
+  <item nodeId="node-244">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-245"/>
+    </children>
+  </item>
+  <item nodeId="node-245">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Staff Room&#x000A;A small, functional room where the staff can catch their breath. The furniture is sparse-just a couple of old chairs and a cluttered table with papers scattered across it. The air feels thick with unease as all the suspects have been brought here until the investigation is over. They sit in silence, each one lost in their thoughts, glancing nervously at each other. After you gather up the initial information, you can ask them about the clues you find to get information about it.&#x000A;&#x000A;Go ahead and interrogate the suspects!&#x000A;&#x000A;From here you can go north to the Dining Room.&#x000A;&#x000A;You can see Shrek the ogre, Super Mario, SpongeBob, Smurfette and Shakira here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-246"/>
+    </children>
+  </item>
+  <item nodeId="node-246">
+    <command xml:space="preserve">interrogate mario</command>
+    <result xml:space="preserve">Super Mario: Oh mamma mia, che incubo! He was like-a my brother, you know... or-a at least... nevermind. I still can't-a believe what-a happened! Me and Simon, we got-a closer after-a his brothers died. He was lonely, needed a friend, so I-a stepped up, you know? It wasn't-a me! Oh povero Simon! I was-a just going to...no, why-a would I ever-a hurt him?!&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-247"/>
+    </children>
+  </item>
+  <item nodeId="node-247">
+    <command xml:space="preserve">ask mario about letter</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-248"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Staff Room&#x000A;A small, functional room where the staff can catch their breath. The furniture is sparse-just a couple of old chairs and a cluttered table with papers scattered across it. The air feels thick with unease as all the suspects have been brought here until the investigation is over. They sit in silence, each one lost in their thoughts, glancing nervously at each other. After you gather up the initial information, you can ask them about the clues you find to get information about it.&#x000A;&#x000A;Go ahead and interrogate the suspects!&#x000A;&#x000A;From here you can go north to the Dining Room.&#x000A;&#x000A;You can see Shrek the ogre, Super Mario, SpongeBob, Smurfette and Shakira here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-251"/>
+    </children>
+  </item>
+  <item nodeId="node-251">
+    <command xml:space="preserve">interrogate mario</command>
+    <result xml:space="preserve">You begin questioning Super Mario.&#x000A;Mario: I-a didn't know about-a any letter! Mamma mia! You're telling me Simon and I were family? How did I-a not know this-a? Sorry, I'm-a little confused. Does that mean I'm no longer a suspect? I would never hurt my own family! You gotta believe me, amico!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-252"/>
+    </children>
+  </item>
+  <item nodeId="node-252">
+    <command xml:space="preserve">interrogate mario</command>
+    <result xml:space="preserve">You begin questioning Super Mario.&#x000A;Mario: I-a didn't know about-a any letter! Mamma mia! You're telling me Simon and I were family? How did I-a not know this-a? Sorry, I'm-a little confused. Does that mean I'm no longer a suspect? I would never hurt my own family! You gotta believe me, amico!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
+  </item>
+  <item nodeId="node-253">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">dining room&#x000A;The dining room exudes grandeur, with a long, polished oak table set for a feast that never came. Ornate chairs, upholstered in rich velvet, are carefully arranged around it, though one seems hastily pushed back, as if someone stood up abruptly. Crystal chandeliers hang from the ceiling, their glow reflecting off fine china and silverware.&#x000A;&#x000A;From here you can go east towards the Kitchen, south to the Staff Rooms or west to get to the Grand Hall.&#x000A;&#x000A;You can see a burger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-254"/>
+    </children>
+  </item>
+  <item nodeId="node-254">
+    <command xml:space="preserve">look at burger</command>
+    <result xml:space="preserve">Someone took only one bite of this Krabby Patty. I wonder if it was poisoned or simply bad.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-255"/>
+    </children>
+  </item>
+  <item nodeId="node-255">
+    <command xml:space="preserve">eat burger</command>
+    <result xml:space="preserve">You stuff the burger in your face. You finally understand the hype about Krabby Patties. You won't even care if they're poisoned.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-256"/>
+    </children>
+  </item>
+  <item nodeId="node-256">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Staff Room&#x000A;A small, functional room where the staff can catch their breath. The furniture is sparse-just a couple of old chairs and a cluttered table with papers scattered across it. The air feels thick with unease as all the suspects have been brought here until the investigation is over. They sit in silence, each one lost in their thoughts, glancing nervously at each other. After you gather up the initial information, you can ask them about the clues you find to get information about it.&#x000A;&#x000A;Go ahead and interrogate the suspects!&#x000A;&#x000A;From here you can go north to the Dining Room.&#x000A;&#x000A;You can see Shrek the ogre, Super Mario, SpongeBob, Smurfette and Shakira here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-257"/>
+    </children>
+  </item>
+  <item nodeId="node-257">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">SpongeBob: Haha! Chipmunk?? What chipmunk? I have NEVER seen one in my life! OH SIMON THE CHIPMUNK! Of course I know Simon! He was always hanging around the Krusty Krab... He even employed me to make Krabby Patties for some parties he was hosting. Why do you ask?...... NO, I'M NOT HIDING ANYTHING!! YOU'LL NEVER CATCH ME ALIVE! He runs away, slipping on some butter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-258"/>
+    </children>
+  </item>
+  <item nodeId="node-258">
+    <command xml:space="preserve">interrogate spongebob</command>
+    <result xml:space="preserve">You begin questioning SpongeBob.&#x000A;SpongeBob: Ah, so you've tried the old Krabby Patty! Glad to have a new costumer! Sorry, I can't tell you the recipe. It's a secret. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-259"/>
+    </children>
+  </item>
+  <item nodeId="node-259">
+    <command xml:space="preserve">interrogate mario</command>
+    <result xml:space="preserve">You begin questioning Super Mario.&#x000A;Mario: I-a didn't know about-a any letter! Mamma mia! You're telling me Simon and I were family? How did I-a not know this-a? Sorry, I'm-a little confused. Does that mean I'm no longer a suspect? I would never hurt my own family! You gotta believe me, amico!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-260"/>
+    </children>
+  </item>
+  <item nodeId="node-260">
+    <command xml:space="preserve">guess shrek</command>
+    <result xml:space="preserve">You accuse Shrek, and Duck-tective rolls his eyes.&#x000A;&#x000A;"Shrek found out Mario was behind a project destroying his beloved swamp, so he set off to avenge his home. Armed with a wooden bat, he arrived at Simon's house, ready to wreak havoc. He started by smashing a statue in the garden when Simon opened the door. Realizing the trouble he was in, Simon invited Shrek to the party, trying to calm him down. Shrek, though furious, eased up a little after a few Krabby Patties."&#x000A;&#x000A;"But things took a turn when Shrek snooped around Simon's house and found a document confirming the project was already set in motion, claiming minimal environmental impact. Enraged by the deceit, Shrek couldn't hold back. At the party, in front of everyone, he stomped down hard on Simon, crushing him completely. No one even noticed as his tiny body was crushed underfoot." "Shrek just stood there, panting. His face twisted in frustration. "I couldn't let him get away with it. He was ruin" everything... ma family... ma swamp," Shrek muttered to himself, rubbin" his brow. "But now... now it's safe. Too bad it had to end like this."&#x000A;&#x000A;Duck-tective lets out a long sigh. "A sad way for things to end&#x2026;but that is the tragic way of life."&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
