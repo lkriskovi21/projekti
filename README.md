@@ -1,3 +1,3 @@
 U repozitoriju se nalaze dva projekta:
-Projekt TBP - izrada aplikacije za upravljanje korisničkim računima,
-Projekt DP - izrada igre interaktivne fikcije u Informu 7.
+Projekt iz TBP (Teorija baza podataka) - izrada aplikacije za upravljanje korisničkim računima,
+Projekt DP (Deklarativno programiranje) - izrada igre interaktivne fikcije u Informu 7.
